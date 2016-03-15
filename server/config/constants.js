@@ -1,0 +1,8 @@
+/**
+ * Constants File.
+ */
+
+module.exports = {
+	
+};
+

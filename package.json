@@ -1,0 +1,43 @@
+{
+  "name": "API-Server",
+  "version": "1.0.0",
+  "description": "Tricon Publish API Server",
+  "main": "index.html",
+  "directories": {
+    "app": "app",
+    "test": "test"
+  },
+  "scripts": {
+    "start": "cd server && node server.js",
+    "test": "gulp lint;"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "Elephant Ventures",
+  "license": "BSD",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "https://github.com/ElephantVentures/mentored",
+  "devDependencies": {
+    "babel-eslint": "^5.0.0",
+    "chai": "^3.5.0",
+    "eslint": "2.2.0",
+    "gulp-eslint": "^2.0.0",
+    "gulp-mocha": "^2.2.0",
+    "mocha": "^2.4.5",
+    "sinon": "^1.17.3",
+    "supertest": "^1.2.0"
+  },
+  "dependencies": {
+    "async": "^1.5.2",
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "get-env": "^0.4.0",
+    "mongodb": "^2.1.8",
+    "mongoose": "^4.4.7",
+    "request": "^2.69.0"
+  }
+}
